@@ -3,5 +3,9 @@
  * Хранение данных конкретного месяца
  * */
 class MonthData {
-    int[] days = new int[30];
+    int[] days;
+
+    MonthData(){
+        this.days = new int[30];
+    }
 }
