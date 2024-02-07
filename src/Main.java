@@ -17,7 +17,7 @@ public class Main {
                     stepTracker.addNewNumberStepsPerDay(scanner);
                     break;
                 case "2":
-                     // Изменить цель по количеству шагов в день
+                    // Изменить цель по количеству шагов в день
                     stepTracker.changeStepGoal(scanner);
                     break;
                 case "3":
