@@ -14,15 +14,15 @@ public class Main {
             switch (command) {
                 case "1":
                     // Ввести количество шагов за определённый день
-                    stepTracker.addNewNumberStepsPerDay(scanner);
+                    stepTracker.addNewNumberStepsPerDay();
                     break;
                 case "2":
                     // Изменить цель по количеству шагов в день
-                    stepTracker.changeStepGoal(scanner);
+                    stepTracker.changeStepGoal();
                     break;
                 case "3":
                     // Напечатать статистику за определённый месяц
-                    stepTracker.printStatistic(scanner);
+                    stepTracker.printStatistic();
                     break;
                 case "4":
                     // выход из программы
